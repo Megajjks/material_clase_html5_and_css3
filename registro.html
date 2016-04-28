@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registro</title>
+<link rel="stylesheet" type="text/css" href="registro.css">
+</head>
+
+<body>
+    <form>
+        <legend> Registro </legend>
+    <!--nombre-->
+            <label for="nombre">Nombre de usuario:</label> <br>
+            <input type="text" placeholder=" &#128587; escribe tu nickname" maxlength="24" name="nombre" id="nombre"><br>
+            <!--para ingresar contraseña-->
+            <label for="contraseña">Contraseña:</label><br>
+            <input type="password" placeholder="&#128273; Escribe tu contraseña" maxlength="12" id="contraseña"><br>
+            <!--para ingresar correo-->
+            <label for="correo">Correo:</label><br>
+            <input type="email" placeholder="&#128231; Escribe tu correo"  name="correo" id="correo">
+            <br>
+            <br>
+              </form>
+        <!--datos personales-->
+    <form class="space">
+                <legend> Datos personales </legend>
+    <!--nombre-->
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" placeholder="&#12852; apellido paterno_materno_nombres" maxlength="50" name="nombre" id="nombre"> <br>
+          <label for="contraseña">Edad:</label><br>
+          <input type="number" placeholder=" &#66673; edad"  name="edad" id="edad">
+            <br>
+            <!--para ingresar contraseña-->
+          <label for="contraseña">Número de telefono:</label><br>
+          <input type="text" placeholder="&#9990; Numero de telefono"  name="telefono" id="telefono">
+            <br>
+            <!--para ingresar correo-->
+            <label for="correo">Correo:</label><br>
+            <input type="email" placeholder="&#128231; Escribe tu correo"  name="correo" id="correo">
+            <br>
+            <br>
+            <!--para seleccionar hombre o mujer-->
+            <label for="genero"></label>
+             <label for="generoh">H</label><input type="radio" name="genero" id="generoh" class="listah" placeholder="hombre">
+             <label for="generom">M</label><input type="radio" name="genero" id="generom" class="listam">
+            <br>
+             <!--caja de seleccion-->
+            <label for="Nacionalidad">Nacionalidad:</label>
+            <select name="" id="">
+                <option value="México">México</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Costa Rica">Costa rica</option>
+                <option value="EUA">Estados Unidos</option>
+                <option value="Chile">Chile</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Guatemala">Guatemala</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Rusia">Rusia</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Canada">España</option>
+          </select><br>
+             <!--botones-->
+            <input type="submit" value="&#127988; Enviar">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>login</title>
+  </head>
+  <body>
+    <style type="text/css">
+      /*Archivo css , hojas en cascada*/
+      /*Reglas generales*/
+      *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+      }
+      /*etiquetas*/
+      body{
+        background-image:url('file:///C:/Users/jjks/Downloads/EXPO%20html5%20y%20css/font.jpg') ;
+        background-size:150%;
+        background-position:top;
+        min-height: 100vh;
+      }
+      legend{
+        text-align:center;
+        font-size:70px;
+        margin-bottom:8px;
+      }
+      form{
+        margin:auto; /*margen automatico*/
+      	width:50%; /*ancho maximo*/
+      	max-width:600px; /*maxima cantidad de px que llegara*/
+      	margin-top:100px;
+        margin-left:27%;
+      	font-family: arial;
+      	font-size:20px;
+      	border-top:4px solid rgba(204, 223, 187, 0.54);
+      	background-color:rgba(27, 12, 9, 0.74);
+      	opacity:0.8;
+      	color:#e2e1db;
+        position:absolute;
+        border-radius:5px; 
+      }
+      input{
+      	width:80%;
+      	height:70px;
+      	margin-left:55px;
+        margin-bottom:30px;
+      	background-color:rgba(61, 52, 61, 0.53);
+      	color:#ece6e6;
+      	border:none;
+      	border-bottom:2px solid rgb(234, 236, 236);
+        text-align: center;
+        font-size:20px;
+      }
+      input[type="submit"]{
+        background:rgb(30, 227, 37);
+        width:25%;
+        margin-right:80px;
+        border:none;
+        border-radius:5 px;
+        opacity:0.6;
+      }
+      input[type="submit"][name="registrar"]{
+        background:rgba(207, 8, 62, 0.8);
+        opacity:0.7;
+      }
+      input:hover{
+      	border-bottom:2px solid rgb(30, 227, 37);
+        transition-duration:50ms;
+      }
+      input[type="submit"]:hover{
+        border:none;
+        opacity:0.9;
+      }
+      input:active{
+        background-color:rgba(224, 134, 28, 0.37) ;
+        transition-duration: 20ms;
+      }
+      input[type="submit"]:active{
+        transform:scale(0.95);
+      }
+      a{
+        text-decoration:none; /*quitamos el efecto del hipervinculo*/
+      }
+    </style>
+    <form class="" action="index.html" method="post">
+        <legend>&#128187; Inicio de sesión</legend>
+        <input type="text" name="user" id="user" placeholder="&#9000;  Nombre de usuario"> <br>
+        <input type="password" name="clave" placeholder="&#128272; Contraseña" id="clave"><br>
+        <input type="submit" name="enviar" id="entrar" value="Entrar">
+      <a href="file:///C:/Users/jjks/Downloads/EXPO%20html5%20y%20css/registro.html" target="_blank">  <input type="submit" name="registrar" id="registrarse" value="Registrarse"></a>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+/*Archivo css , hojas en cascada*/
+/*Reglas generales*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+/*etiquetas*/
+body{
+	background-image:url('file:///C:/Users/jjks/Downloads/EXPO%20html5%20y%20css/font.jpg') ;
+	background-size:150%;
+	background-position:top;
+	min-height: 100vh;
+}
+legend{
+	text-align:center;
+	font-size:30px;
+	margin-bottom:5px;
+}
+form{
+	margin:auto; /*margen automatico*/
+	width:50%; /*ancho maximo*/
+	max-width:500px; /*maxima cantidad de px que llegara*/
+	margin-top:40px;
+	font-family: arial;
+	font-size:20px;
+	border-top:4px solid rgba(204, 223, 187, 0.54);
+	background-color:rgba(27, 12, 9, 0.74);
+	opacity:0.8;
+	color:#e2e1db;
+}
+select{
+	width:80%;
+	height:30px;
+	margin-left:55px;
+	margin-bottom:20px;
+	background-color:rgba(61, 52, 61, 0.53);
+	color:#ece6e6;
+	border:none;
+	border-bottom:2px solid rgb(234, 236, 236);
+}
+label{
+	margin-left:15%;
+}
+input{
+	width:80%;
+	height:30px;
+	margin-left:55px;
+	margin-bottom:20px;
+	background-color:rgba(61, 52, 61, 0.53);
+	color:#ece6e6;
+	border:none;
+	border-bottom:2px solid rgb(234, 236, 236);
+}
+input[type="submit"]{
+	background:rgb(30, 227, 37);
+	border:none;
+	opacity:0.7;
+}
+input[type="submit"]:hover{
+	border:none;
+	opacity:1;
+}
+input[type="submit"]:active{
+	transform:scale(0.95);
+}
+input:hover{
+	border-bottom:2px solid rgb(30, 227, 37);
+}
+#genero{
+	display:inline-block;
+	margin:none;
+}
+input [type="radio"]{
+	display:inline;
+	width:1px;
+}
+/*reglas*/
+.space {
+	margin-top:10px;
+}
